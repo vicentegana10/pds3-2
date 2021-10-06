@@ -10,6 +10,7 @@ app.use(express.json());
 
 // Routes
 const usersRouter = require("./routes/users");
+app.use("/", usersRouter);
 app.use("/users", usersRouter);
 
 // Listen on port 5000

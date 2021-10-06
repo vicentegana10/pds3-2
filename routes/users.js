@@ -2,6 +2,12 @@ const express = require("express");
 
 const usersRouter = express.Router();
 
+usersRouter.get("", async (req, res) => {
+  res.status(200).json({
+    msg: "Heroku corriendo",
+  });
+});
+
 usersRouter.get("/hi", async (req, res) => {
   res.status(200).json({
     msg: "Hola usuario",
