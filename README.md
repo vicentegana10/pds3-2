@@ -5,8 +5,8 @@
 - run `npm install` for node dependencies.
 - run `npm install -g nodemon` to install nodemon globally if needed.
 
-- run `nodemon app.js`
+- run `npm start` to start.
 
 ## 1.2. API methods
 
-- POST `/api/users/login` user login autentication.
+- POST `/users/login` user login autentication.
